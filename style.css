@@ -1,0 +1,74 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+/* header */
+.header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 25px;
+}
+
+.header #logo{
+    display:block;
+    float:left;
+    margin-top: 10px;
+}
+.header #logo p{
+    float:right;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Angkor', cursive;
+    font-size: 20px;
+}
+
+.header #menu{
+    display: block;
+    float: left;
+    margin: 20px 30px 10px 30px;
+    margin-left: 100px;
+}
+
+.header #menu li{
+    float:left;
+    margin: 20px;
+    padding: 0px 15px 0px 15px;
+    font-size: 18px;
+}
+
+.header #account{
+    float: right;
+    margin: 20px; 
+}
+.header #account li{
+    text-align: center;
+    float:right;
+    margin:10px;
+    background-color: #29323d;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+
+/* body */
+.first-body-part #new img{
+    margin-top: 100px;
+    width: 100%;
+}
